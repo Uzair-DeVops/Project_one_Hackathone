@@ -54,7 +54,6 @@ def chatbot_response(query):
     response = chatbot([HumanMessage(content=f"{context} User Query: {query}")])
     return response.content
 
-# Custom CSS for animations and styling
 st.markdown(
     """
     <style>
